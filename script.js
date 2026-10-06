@@ -50,3 +50,4 @@ function previousCard() {
 
     document.getElementById("answer").innerText = "";
 }
+// Flashcard navigation feature
