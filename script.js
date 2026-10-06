@@ -51,3 +51,11 @@ function previousCard() {
     document.getElementById("answer").innerText = "";
 }
 // Flashcard navigation feature
+function shuffleCards() {
+    currentCard = Math.floor(Math.random() * flashcards.length);
+
+    document.getElementById("question").innerText =
+        flashcards[currentCard].question;
+
+    document.getElementById("answer").innerText = "";
+}
